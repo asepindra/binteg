@@ -1,0 +1,107 @@
+/* Add here all your CSS customizations */
+.sk-spinner-wave.sk-spinner {
+  margin: 0 auto;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  font-size: 10px;
+}
+.sk-spinner-wave div {
+  background-color: #1ab394;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  -webkit-animation: sk-waveStretchDelay 1.2s infinite ease-in-out;
+  animation: sk-waveStretchDelay 1.2s infinite ease-in-out;
+}
+.sk-spinner-wave .sk-rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+.sk-spinner-wave .sk-rect3 {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+.sk-spinner-wave .sk-rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+.sk-spinner-wave .sk-rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+@-webkit-keyframes sk-waveStretchDelay {
+  0%,
+  40%,
+  100% {
+    -webkit-transform: scaleY(0.4);
+    transform: scaleY(0.4);
+  }
+  20% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+}
+@keyframes sk-waveStretchDelay {
+  0%,
+  40%,
+  100% {
+    -webkit-transform: scaleY(0.4);
+    transform: scaleY(0.4);
+  }
+  20% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+}
+
+
+.mdc-layanan-box{
+	padding : 2px !important;
+}
+.mdc-layanan-box>.text-right {
+	padding-right: 5px;
+}.meta-down {}
+
+.navy-bg {
+	background-color:#1ab394;
+	color: #ffffff;
+}
+
+.widget-head-color-box {
+	border-radius:5px 5px 0px 0px;
+	margin-top:10px;
+}
+
+.widget-text-box {
+	padding:20px;
+	border:1px solid #e7eaec;
+	background:#ffffff;
+}
+
+.no-margins{
+	margin: 0px;
+}
+
+.mdc-title {
+	font-size: 20px;
+}
+
+.mdc-description {
+	line-height: 20px;
+}
+
+.m-b-md {
+	margin-bottom:20px;
+}
+
+.mdc-span {
+	padding-top: 10px;
+}
+
+.loader {
+	margin-top: 15px;
+}
+.mdc-layanan-box {
+  background-size: 100% 100%;
+}
