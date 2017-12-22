@@ -30,7 +30,7 @@ switch (ENVIRONMENT)
 	break;
 	case 'testing':
 	case 'production':
-		$config['base_url'] = 'http://api.maudaftar.com/';
+		$config['base_url'] = 'http://binteg.dev.uin.am/';
 	break;
 
 	default:
